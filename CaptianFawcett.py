@@ -5,7 +5,7 @@ import pandas
 
 
 #Open a local html file and load the page to bs4
-url = r"C:\Users\Clarke Gallie\Desktop\Projects\Python Projects\Scrape Rockwell Stores\Stockists.html"
+# url = r"Download the page https://www.captainfawcett.com/pages/stockists and point to it here"
 page = open(url)
 soup = BeautifulSoup(page.read())
 
